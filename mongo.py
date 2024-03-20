@@ -10,7 +10,7 @@ mongo_client = MongoClient(mongo_uri)
 mongo_db = mongo_client.get_database('Analytics_Pro')
 
 # Select collection (optional)
-mongo_collection = mongo_db['Apply_Config']
+mongo_collection = mongo_db['Apply_Configcle']
 print("success")
 # Define your query
 # Example: Find all documents where the value of the 'field_name' field is equal to 'desired_value'
