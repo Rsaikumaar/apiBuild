@@ -1,7 +1,7 @@
 import pymongo
 
 # Connection URI
-uri = "mongodb+srv://Rokkam:Rokkam9123@cluster0.ppt9la2.mongodb.net/"
+uri = "mongodb://saikumar.rokkam%40phenom.com@qa-mongo09.aws.phenom.local:27017,qa-mongo08.aws.phenom.local:27017/?authMechanism=PLAIN&authSource=%24external"
 
 # Connect to the MongoDB server
 client = pymongo.MongoClient(uri)
